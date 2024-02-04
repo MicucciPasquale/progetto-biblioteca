@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(164, 252, 198);
+  text-align: center;
+ overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+
+h1 {
+  font-family: 'Rubik Doodle Shadow', system-ui;
+  text-shadow: 1px 4px 8px rgb(245, 151, 232);
+  font-size: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+
+#image-profile {
+  max-width: 100px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 2px solid #0e0e0e;
+  box-shadow: 2px 4px 10px rgb(245, 151, 232);
+  display: flex;
+  display: flex;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+
+#image-profile img {
+  width: 20px;
+  height: 20px;
+  margin: 5px 5px 5px 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  #image-profile {
+    position: static;
+    max-width: 150px;
+    margin-bottom: 10px;
+  }
+
+  #image-profile img {
+    width: 40px;
+    height: 20px;
+    margin: 5px;
+  }
+}
+
+
+
+#goHome {
+  font-family: 'Vestito', sans-serif;
+}
+
+
+#searchBox {
+  font-family: 'Shadows Into Light', corsivo;
+  width: 300px;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 2px solid #0e0e0e;
+  box-shadow: 1px 2px 6px rgb(245, 151, 232);
+}
+
+button {
+  width: auto;
+  height: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 2px solid #0e0e0e;
+  box-shadow: 1px 2px 6px rgb(245, 151, 232);
+  ;
+}
+
+#searchButton {
+  padding: 10px;
+  font-size: 16px;
+}
+
+
+#bookList {
+  font-family: 'Vestito', sans-serif;
+  margin-top: 20px;
+}
+
+.bookItem {
+  font-family: 'Vestito', sans-serif;
+  margin-bottom: 10px;
+}
+
+#bookDescription {
+  margin-top: 20px;
+}
+
+
+footer p {
+  color: black;
+  font-family: 'Anton', sans-serif;
+}

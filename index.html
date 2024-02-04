@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Outfit:wght@300&family=Pacifico&family=Rubik+Doodle+Shadow&family=Rubik+Maps&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/book-open.svg">
+
+    <title>Open Library Book Search</title>
+
+</head>
+
+<body>
+
+    <div id="image-profile">
+        <a href="https://www.linkedin.com/in/pasquale-micucci1111/" target="_blank">
+            <img src="img/linkedin.svg" alt="LinkedIn" width="50" height="50">
+        </a>
+
+        <a href="https://github.com/MicucciPasquale" target="_blank">
+            <img src="img/github.svg" alt="GitHub" width="50" height="50">
+        </a>
+
+        <a href="https://wa.me/393205734896" target="_blank">
+            <img src="img/whatsapp.svg" alt="Whastapp" width="50" height="50">
+        </a>
+    </div>
+
+    <div class="first-page">
+        <h1>Cerca il tuo Libro preferito!</h1>
+        <label for="searchBox">Categoria:</label>
+        <input type="text" id="searchBox" placeholder="Inserisci la categoria (es. fantasy)">
+        <button onclick="searchBooks()">Cerca Libri</button>
+        <button onclick="goHome()">Home</button>
+
+        <div id="bookList"></div>
+        <div id="bookDescription"></div>
+    </div>
+
+
+
+
+
+
+    <footer>
+        <p>"Ogni lettore, quando legge, legge se stesso". Marcel Proust </p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
